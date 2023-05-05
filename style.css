@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Benedict;
+    src: url(./Font/Benedict-Font-Duo/Benedict.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+    display: block;
+    justify-content:center;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+div{
+    display: block;
+
+
+}
+
+
