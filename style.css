@@ -3,32 +3,118 @@
     src: url(./Font/Benedict-Font-Duo/Benedict.ttf);
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+:root {
+    --cor1: #000000;
+    --cor2: #1a1a1a;
+    --cor3: #333333;
+    --cor4: #4d4d4d;
+    --cor5: #666666;
+    --cor6: #7f7f7f;
+    --cor7: #999999;
+    --cor8: #b2b2b2;
+    --cor9: #cccccc;
+    --cor10: #e5e5e5;
+    --cor11: #f2f2f2;
+    --cor12: #ffffff;
+    --cor35: #C0C0C0;
+    --cor36: #D3D3D3;
+    --cor37: #A9A9A9;
+    --cor38: #808080;
+    --cor39: #696969;
+    --cor40: #778899;
+    --cor41: #708090;
+    --verde-1: #002200;
+    --verde-2: #003300;
+    --verde-3: #004d00;
+    --verde-4: #006600;
+    --verde-5: #008000;
+    --verde-6: #009900;
+    --verde-7: #00b300;
+    --verde-8: #00cc00;
+    --verde-9: #00e600;
+    --verde-10: #00ff00;
+    --verde-11: #19ff19;
+    --verde-12: #33ff33;
+    --verde-13: #4dff4d;
+    --verde-14: #66ff66;
+    --verde-15: #7fff7f;
+    --verde-16: #99ff99;
+    --christmas-green: #007152;
+    --siedem:#165e59;
+    --three: #006552;
+    --jaded-teal:#006065;
+    --byzantine-purple:#725588;
+    --3d-diva:#663065;
+    --royal-purple:#49277f;
+    --vamp:#7e466c;
+    --roxo-1: #1f0030;
+    --roxo-2: #3f0060;
+    --roxo-3: #5f0090;
+    --roxo-4: #7f00bf;
+    --roxo-5: #9d00e5;
+    --roxo-6: #c964ff;
+    --roxo-7: #c53aff;
+    --roxo-8: #d862ff;
+    --roxo-9: #e792ff;
+    --roxo-10: #f0baff;
+    --roxo-11: #f5ccff;
+    --color-fuscia:#ff00ff;
+    --roxo-12:#5F2C99;
+}
+
 *{
     margin: 0;
     padding: 0;
-    color: black;
+    color: #000000;;
     box-sizing: border-box;
 }
-html{
-    min-height: 100%;
+
+div{
     display: block;
-    justify-content:center;
+}
+
+html, body, header{
+    min-height: 100%;
+    text-align: center;
 }
 
 header{
-    height: 10vh;
-    width: 100vw;
+    width: 100%;
+    height: 50px;
+    background-color: var(--roxo-6);
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-
-div{
-    display: block;
-
-
+.upBar li{
+    list-style: none;
+    margin: 10px;
 }
 
+li a{
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+
+li a:hover{
+    background: linear-gradient(var(--roxo-6),var(--roxo-9),var(--cor12));
+    
+}
 

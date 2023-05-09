@@ -1,10 +1,10 @@
-#007152 - christmas green
-#165e59 - siedem wzgórz
-#006552 - árvore da felicidade
-#006065 - jaded teal
+--christmas-green: #007152
+--siedem:#165e59
+--three: #006552
+--jaded-teal:#006065 
 
 
-#725588 - byzantine purple
-#663065 - 3d diva 25
-#49277f - dy96 royal purple
-#7e466c - vamp
+--byzantine-purple:#725588;
+--3d-diva:#663065;
+--royal-purple:#49277f;
+--vamp:#7e466c;
